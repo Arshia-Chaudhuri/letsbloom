@@ -1,0 +1,38 @@
+Problem Description:
+
+Imagine you are tasked with building a simple RESTful API for managing a library system. The API
+should interact with a database to perform basic CRUD operations on books. Implement three API
+endpoints with increasing complexity:
+
+1. Endpoint 1: Retrieve All Books
+Implement an endpoint that retrieves a list of all books in the library from the database.
+Endpoint: GET /api/books
+Evaluation Criteria:
+- Correct retrieval of all books from the database.
+- Proper error handling for database connection issues.
+
+2. Endpoint 2: Add a New Book
+Implement an endpoint that allows the addition of a new book to the library.
+Endpoint: POST /api/books
+Request Body: JSON object representing the new book.
+Evaluation Criteria:
+- Proper validation of the request payload.
+- Correct insertion of the new book into the database.
+- Appropriate handling of errors, such as duplicate book entries.
+
+3. Endpoint 3: Update Book Details
+Implement an endpoint that allows updating the details of a specific book in the library.
+Endpoint: PUT /api/books/{id}
+Request Body: JSON object with updated book details.
+Evaluation Criteria:
+- Correct identification and retrieval of the book from the database.
+- Proper validation of the request payload.
+- Updating the book details in the database.
+- Handling errors, such as updating a non-existent book.
+
+Candidates are encouraged to provide a read me on how to run the application, also with a method
+to seed the database with mock data. Also include clear documentation for APIs in the read me,
+including endpoint descriptions, expected request/response formats, and any additional information
+that aids understanding and usage of the API.
+
+
